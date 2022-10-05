@@ -2,11 +2,11 @@ print('To convert CELCIUS to FARENHEIT press "1" \nTo convert FARENHEIT to CELCI
 num = input('Enter number for selection :')
 val = input("Enter the vslue to be converted:")
 
-if num == '1':
+if num == 'C_to_F':
     num1 = (float(val)*9/5)+32
     print('CELCIUS to FARENHEIT is : ',num1)
 
-elif num == '2':
+elif num == 'F_to_C':
     num1 = (float(val)-32)*5/9
     print('FARENHEIT to CELCIUS : ',num1)
 
